@@ -167,7 +167,7 @@ def chooseGame(S,possibles,results,tries):
 
 def chooseGameBis(S,possibles,results,tries):
 
-    if tries = 1
+    if tries == 1 :
 
         return [1,1,2,2]
 
@@ -189,7 +189,7 @@ def chooseGameBis(S,possibles,results,tries):
 
                 for p in S:
 
-                    if evaluation(p,x)!==res:
+                    if evaluation(p,x)!=res:
 
                         nb+=1
 
@@ -223,7 +223,7 @@ def game():
 
     possible = frozenset(S)
 
-    results = frozenset((well,bad) for well in range(5) for bad on range(5-well) if not (well==3 and bad=1))
+    results = frozenset((well,bad) for well in range(5) for bad in range(5-well) if not (well==3 and bad==1))
 
     while notFound and (tries<=10):
 
@@ -241,13 +241,13 @@ def game():
 
         display(well,bad)
 
-        if well = nbP:
+        if well == nbP:
 
             notFound = False
 
         else:
 
-            tries +== 1
+            tries += 1
 
             S.difference_update(set(coup for coup in S if (well,bad) != evaluation(coup,selected)))
 
