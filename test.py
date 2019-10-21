@@ -1,4 +1,4 @@
-# Tanguy #
+## Tanguy ##
 from random import randnt
 
 """Give a name and make comments"""
@@ -65,7 +65,7 @@ def evaluation(selected,cache):
 
                 copySelected[i],copyCache[j] = -1,-1
 
-    retun WellPut,Misplaced
+    return WellPut,Misplaced
 
  
 
@@ -81,7 +81,7 @@ def display(well,bad):
 
 def displayCache(cache):
 
-    for x on cache:
+    for x in cache:
 
         print(x,end='')
 
