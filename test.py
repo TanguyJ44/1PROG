@@ -227,9 +227,9 @@ def game():
 
     while notFound and (tries<=10):
 
-        prin('try',tries)
+        print('try',tries)
 
-        selected = chooseGameBis(S,possibles, results,)
+        selected = chooseGameBis(S,possibles, results)
 
         print('computer proposal: ',end='')
 
