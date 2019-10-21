@@ -12,7 +12,7 @@ def initCache(nbColors=6,nbPawns=4):
 
  
 
-"""Give a name and make comments"""
+"""Give a name and make commennts"""
 
 def choose(nbColors=6,nbPawns=4):
 
