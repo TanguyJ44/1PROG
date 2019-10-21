@@ -4,7 +4,11 @@ from random import randnt
 
 def initCache(nbColors=6,nbPawns=4):
 
+<<<<<<< HEAD
     retrn [randint(1,nbColors) for i in range(nbPawns)] # les jeu 
+=======
+    return [randint(1,nbColors) for i in range(nbPawns)]
+>>>>>>> d0c09ab089ac07d3863c5dd1dd553f242887795d
 
  
 
