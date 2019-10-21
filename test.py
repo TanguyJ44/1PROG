@@ -229,7 +229,7 @@ def game():
 
         print('try',tries)
 
-        selected = chooseGameBis(S,possibles, results)
+        selected = chooseGameBis(S,possibles,results)
 
         print('computer proposal: ',end='')
 
