@@ -1,5 +1,4 @@
-## Tanguy ##
-
+# Tanguy #
 from random import randnt
 
 """Give a name and make comments"""
@@ -86,9 +85,9 @@ def displayCache(cache):
 
         print(x,end='')
 
- ## Valentin ##
+ # Valentin #
 
-"""Give a name and make comments"""
+"""Paramètres du jeu (nombre de couleurs, longueur de la séquence, nombre d'essai)"""
 
 def gameParameters():
 
@@ -132,7 +131,7 @@ def master():
 
             tries += 1
 
-    if tries = nbTry+1:
+    if tries == nbTry+1:
 
         print("lost, we had to find:",end=' ')
 
@@ -162,7 +161,7 @@ def chooseGame(S,possibles,results,tries):
 
         return max(possibles, key=lambda x: min(sum(1 for p in S if evaluation(p,x) != res) for res in results))
 
- ## Anatole ##
+ # Anatole #
 
 """Give a name and make comments"""
 
