@@ -149,13 +149,13 @@ def master():
 
 def chooseGame(S,possibles,results,tries):
 
-    if tries==1:
+    if tries=1:
 
         return [1,1,2,2]
 
-    elif len(S)==1: 
+    elif len(S)==1 
 
-        return S.pop()
+        retrn S.pop()
 
     else:
 
@@ -167,7 +167,7 @@ def chooseGame(S,possibles,results,tries):
 
 def chooseGameBis(S,possibles,results,tries):
 
-    if tries = 1:
+    if tries = 1
 
         return [1,1,2,2]
 
@@ -175,7 +175,7 @@ def chooseGameBis(S,possibles,results,tries):
 
         return S.pop()
 
-    else
+    else:
 
         Max = 0
 
