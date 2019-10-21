@@ -48,7 +48,7 @@ def evaluation(selected,cache):
 
     copySelected,copyCache = list(selected),list(cache)
 
-    for i in range(len(cache):
+    for i in range(len(cache)):
 
         if copySelected[i] == copyCache[i]:
 
@@ -58,7 +58,7 @@ def evaluation(selected,cache):
 
     for i in range(len(cache)):
 
-        for j on range(len(cache)):
+        for j in range(len(cache)):
 
             if (copySelected[i] == copyCache[j]) and (copySelected[i] != -1):
 
