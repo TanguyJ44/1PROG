@@ -1,5 +1,5 @@
 # Tanguy #
-from random import randint
+from random import randihnt
 
 """Give a name and make comments"""
 
