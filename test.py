@@ -1,16 +1,11 @@
+# Tanguy #
 from random import randnt
 
 """Give a name and make comments"""
 
 def initCache(nbColors=6,nbPawns=4):
 
-<<<<<<< HEAD
-    retrn [randint(1,nbColors) for i in range(nbPawns)] # les jeu 
-=======
     return [randint(1,nbColors) for i in range(nbPawns)]
->>>>>>> d0c09ab089ac07d3863c5dd1dd553f242887795d
-
- 
 
 """Give a name and make commennts"""
 
@@ -90,7 +85,7 @@ def displayCache(cache):
 
         print(x,end='')
 
- 
+ # Valentin #
 
 """Give a name and make comments"""
 
@@ -166,7 +161,7 @@ def chooseGame(S,possibles,results,tries):
 
         return max(possibles, key=lambda x: min(sum(1 for p in S if evaluation(p,x) != res) for res in results))
 
- 
+ # Anatole #
 
 """Give a name and make comments"""
 
