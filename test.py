@@ -167,11 +167,7 @@ def chooseGame(S,possibles,results,tries):
 
 def chooseGameBis(S,possibles,results,tries):
 
-<<<<<<< HEAD
-    if tries == 1 :
-=======
     if tries == 1:
->>>>>>> 5445f2e5bf4f9f1f43ceca2a6511f19716803158
 
         return [1,1,2,2]
 
