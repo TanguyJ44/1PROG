@@ -149,13 +149,13 @@ def master():
 
 def chooseGame(S,possibles,results,tries):
 
-    if tries = 1:
+    if tries == 1:
 
         return [1,1,2,2]
 
-    elif len(S)==1 
+    elif len(S)==1:
 
-        retrn S.pop()
+        return S.pop()
 
     else:
 
