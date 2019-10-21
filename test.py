@@ -189,7 +189,7 @@ def chooseGameBis(S,possibles,results,tries):
 
                 for p in S:
 
-                    if evaluation(p,x)!==res:
+                    if evaluation(p,x)!=res:
 
                         nb+=1
 
